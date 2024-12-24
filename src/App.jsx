@@ -10,7 +10,7 @@ import DndPage from "./pages/DndPage";
 
 function App() {
   return (
-    <BrowserRouter basename="/VITE/">
+    <BrowserRouter basename="/RKPO/">
       <Routes>
         <Route path="/" element={<TodoPage />} />
         <Route path="/dnd" element={<DndPage />} />
